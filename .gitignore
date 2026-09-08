@@ -1,0 +1,20 @@
+# This directory doubles as a Python venv (see pyvenv.cfg) -- exclude the
+# venv internals, not the project code.
+bin/
+lib/
+lib64
+include/
+share/
+pyvenv.cfg
+__pycache__/
+*.pyc
+
+# Debug/test artifacts from development, not source.
+debug/
+*.jpg
+*.jpeg
+*.png
+
+# Generic demo model used for early sanity checks, not the project's model.
+yolo11n.pt
+yolo11n_ncnn_model/
